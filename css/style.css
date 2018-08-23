@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#nav {
+  background: rgb(17,59,110);
+  background: linear-gradient(0deg, rgba(17,59,110,1) 0%, rgba(15,54,154,1) 100%);
+  border: 0px;
+  border-radius: 0px;
+}
+
+#navBrand {
+  text-align: left;
+  font-size: 40px;
+
+  color: #FDC02F;
+  padding-top: 5px;
+  font-family: Monoton;
+}
+
+#bodyPage{
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#info{
+  color: #0F3A89;
+}
+
+table {
+  margin: auto;
+  width: 270px;
+  height: 270px;
+  border-collapse: collapse;  
+  border: 5px #FFFFFF solid;
+}
+
+.square {
+  width: 95%;
+  height: 95%;
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+td {
+  height: 33%;
+  width: 33%;
+}
+
+tr td:nth-of-type(2) { 
+  border-left: 5px black solid;
+  border-right: 5px black solid;
+}
+
+tr:nth-of-type(2) td {
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
+}
+
+.square:focus {
+  outline: none;
+}
+
+#title {
+  font-size: 60px;
+  color: #000000;
+  font-family: ;
+}
+
+#reset, #info, table {
+  margin-top: 20px;
+}
+
+#reset {
+  background: rgb(17,59,110);
+background: linear-gradient(0deg, rgba(17,59,110,1) 0%, rgba(15,54,154,1) 100%);
+  color: #FDC02F;
+}
